@@ -1,0 +1,20 @@
+{
+    "HTTP": {
+        "Links": [
+            "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=any",
+            "http://1.1.1.1:8080"
+        ]
+     },
+     "Socks4": {
+        "Links": [
+                "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=10000&country=all&ssl=all&anonymity=all",
+                "http://1.1.1.1:8080"
+            ]
+     },
+     "Socks5": {
+        "Links": [
+            "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5&timeout=10000&country=all&ssl=all&anonymity=all",
+            "http://1.1.1.1:8080"
+        ]
+     }
+ }
