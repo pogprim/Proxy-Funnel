@@ -1,20 +1,35 @@
 {
-    "HTTP": {
-        "Links": [
-            "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=any",
-            "http://1.1.1.1:8080"
-        ]
-     },
-     "Socks4": {
-        "Links": [
-                "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=10000&country=all&ssl=all&anonymity=all",
-                "http://1.1.1.1:8080"
-            ]
-     },
-     "Socks5": {
-        "Links": [
-            "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5&timeout=10000&country=all&ssl=all&anonymity=all",
-            "http://1.1.1.1:8080"
-        ]
-     }
+        "Purge": {
+                "Enabled": "true",
+                "Description": "Purge the existing proxy files before downloading new ones"
+        },
+        "Loop": {
+                "Enabled": "false",
+                "intervel": "10",
+                "Description": "Redownload the proxy files",
+                "Status": "Coming soon!"
+        },
+        "Checker": {
+                "Enabled": "false",
+                "Description": "Check the downloaded proxy files for invalid or transparent proxies and removes them",
+                "Status": "Coming soon!"
+        },
+        "HTTP": {
+                "Links": [
+                    "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all",
+                    "http://1.1.1.1:8080"
+                ]
+             },
+        "Socks4": {
+                "Links": [
+                        "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=10000&country=all&ssl=all&anonymity=all",
+                        "http://1.1.1.1:8080"
+                    ]
+             },
+        "Socks5": {
+                "Links": [
+                    "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks5&timeout=10000&country=all&ssl=all&anonymity=all",
+                    "http://1.1.1.1:8080"
+                ]
+        }
  }
