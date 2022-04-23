@@ -1,0 +1,4 @@
+v 1.0.1
+[+] Adds a Purge option in the configuration file so you can save old proxies if you would like to.
+[+] Partially added looping support.
+[+] Increases the speed at which the application downloads the file data, so less waiting for it to be finished.
